@@ -1,0 +1,13 @@
+name = "lapce-ocaml-lsp"
+display-name = "OCaml LSP"
+description = "LSP for OCaml"
+version = "0.0.1"
+author = "Leous"
+repository = "lpbrasseur/lapce-ocaml-lsp"
+wasm = "lapce-ocaml-lsp.wasm"
+
+[configuration]
+language_id = "rust"
+[configuration.options.diagnostics]
+enable = false
+enableExperimental = false
